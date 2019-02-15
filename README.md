@@ -1,6 +1,15 @@
-# Example Block Definitions for Register ACF Gutenberg Block
+# Example Block Definitions for [Register ACF Gutenberg Block](https://github.com/mmirus/register-acf-gutenberg-block)
 
-Example block definitions for use with https://github.com/mmirus/register-acf-gutenberg-block
+- [Rendering Your Blocks](#rendering-your-blocks)
+  - [Using a Blade template in a plugin](#using-a-blade-template-in-a-plugin)
+  - [Using a PHP template in a plugin](#using-a-php-template-in-a-plugin)
+  - [Using Blade or PHP templates in your theme](#using-blade-or-php-templates-in-your-theme)
+  - [Using a callback](#using-a-callback)
+- [Registering Your Fields](#registering-your-fields)
+  - [Using ACF Builder](#using-acf-builder)
+  - [Using the ACF GUI](#using-the-acf-gui)
+
+Example block definitions for use with [Register ACF Gutenberg Block](https://github.com/mmirus/register-acf-gutenberg-block).
 
 For information on most of the possible block options, see:
 
@@ -114,7 +123,7 @@ $block['classes'] = implode(' ', [$block['slug'], $block['className'], $block['a
 
 ```
 
-### Using a Blade or PHP templates in your theme
+### Using Blade or PHP templates in your theme
 
 The above code will also work for themes; you only have to adjust the template file paths, e.g.:
 
